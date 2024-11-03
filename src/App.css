@@ -1,0 +1,47 @@
+.full {
+  flex: 1;
+}
+
+.profile-photo {
+  width: 300px;
+  height: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#0f172a, #ff6ae8);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6ae8;
+}
+
+.loader-container {
+  text-align: center;
+  background-color: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.icona {
+  transition: 0.5s;
+}
+.icona:hover {
+  color: #ff6ae8;
+  transform: scale(1.2);
+}
