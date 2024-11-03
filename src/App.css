@@ -7,23 +7,20 @@
   height: auto;
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
   background: #0f172a;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(#0f172a, #ff6ae8);
   border-radius: 5px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ff6ae8;
 }
